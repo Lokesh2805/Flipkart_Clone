@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use('/', router);
-PORT =  8000;
+PORT = process.env.port || 8000;
 const USERNAME= process.env.DB_USERNAME;
 const PASSWORD= process.env.DB_PASSWORD;
 connection(USERNAME, PASSWORD);
