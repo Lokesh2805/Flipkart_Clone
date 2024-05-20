@@ -1,2 +1,3 @@
 # Flipkart_Clone
-link to deployed site :- https://flipkartwithreact.netlify.app/
+link to deployed site :-
+https://clonekart.netlify.app/
